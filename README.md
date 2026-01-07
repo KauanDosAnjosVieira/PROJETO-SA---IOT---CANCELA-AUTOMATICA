@@ -46,7 +46,7 @@ O projeto consiste em um protótipo inteligente que gerencia o acesso a uma vaga
 
 ## 🧠 Como Funciona o Código
 
-[cite_start]O sistema opera em loop verificando dois estados principais[cite: 101, 102, 118]:
+O sistema opera em loop verificando dois estados principais
 
 1.  **Verificação da Vaga:** O sensor da vaga (Pinos 6 e 7) mede a distância. [cite_start]Se for menor que 50cm, o sistema define `vagaOcupada = true`[cite: 67, 109, 110].
 2.  [cite_start]**Verificação de Entrada:** O sensor da entrada (Pinos 2 e 3) verifica se há um carro (distância < 100cm)[cite: 68, 125].
